@@ -1,8 +1,8 @@
-what data to be storted?
+What data to be stored?
 
-prisma -- helper -- object modelling
+- Prisma -> helper -> object modeling  = ODM
 
-mongoose -- help in data modellling
+- mongoose -> help in data modeling  = ODM
 
 Install Mongoose:
 ```
