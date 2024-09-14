@@ -29,7 +29,7 @@ A  JS Runtime:
 - .env
 - Readme/git/lint/prettier
 ---
-![[one.png]]
+![[./images/one.png]]
 
 ---
 
