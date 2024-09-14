@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"6eb94a7425453c39","type":"text","text":"WebDev\n- MERN\n- Next JS\n- Clerk & Appwrite","x":-800,"y":-1207,"width":250,"height":165},
+		{"id":"0ac4482ad1cc3db1","type":"text","text":"Things to Master\n- TS\n- OOPS Concept","x":-200,"y":-1181,"width":250,"height":113},
+		{"id":"e5c5d51f004cbacc","type":"text","text":"Tools\n- DOCKER\n- Cloud - AWS \n- GitHub\n- Code Spaces\n- IDX \n- Vercel, Netlify\n- Custom Deployment\n- Setting - CI/CD pipeline","x":-365,"y":-1000,"width":365,"height":300},
+		{"id":"943480105d023f22","type":"text","text":"DSA\n- Searching Sorting\n- Arrays, LL\n- Stack Queue\n- Advanced DSA","x":-490,"y":-1243,"width":250,"height":175},
+		{"id":"29858f4a33c65daf","type":"text","text":"DataBase\n- SQL\n- MongoDB\n- SQlite","x":-760,"y":-892,"width":250,"height":152}
+	],
+	"edges":[
+		{"id":"7e28afb1619ceea6","fromNode":"29858f4a33c65daf","fromSide":"top","toNode":"6eb94a7425453c39","toSide":"bottom"},
+		{"id":"fc032f606aa35d9c","fromNode":"e5c5d51f004cbacc","fromSide":"top","toNode":"6eb94a7425453c39","toSide":"bottom"},
+		{"id":"48f1cae7f21cf392","fromNode":"0ac4482ad1cc3db1","fromSide":"top","toNode":"6eb94a7425453c39","toSide":"top"}
+	]
+}
