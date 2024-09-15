@@ -53,3 +53,21 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 ```
+
+
+Image:(Buffer Files)
+- stored in AWS Bucket / Cloudinary
+ - public URL address is passed as a string format in DB
+
+
+### TODO Data Modeling
+
+
+## E-Commerce data Modeling
+
+
+
+## Hospital Data Modeling
+
+
+
