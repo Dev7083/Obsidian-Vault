@@ -8,6 +8,20 @@ Importance of Data Structures
 2. Algorithm Design: Data structures play a crucial role in the design and implementation of efficient algorithms, as they provide the necessary tools to solve complex problems.
 3. Memory Optimization: Different data structures have varying memory requirements, allowing developers to choose the most appropriate one based on the specific needs of their application.
 4. Abstraction and Modularity: Data structures provide a level of abstraction, enabling developers to work with high-level concepts without worrying about the underlying implementation details.
+#### Types of Data Structures
+
+Data structures can be broadly classified into two categories: **Linear** and **Non-Linear**.
+
+1. **Linear Data Structures**: Elements are arranged in a sequential manner.
+    
+    - **Array**: A collection of elements identified by index or key.
+    - **Linked List**: A sequence of elements where each element points to the next.
+    - **Stack**: Follows Last In First Out (LIFO) principle.
+    - **Queue**: Follows First In First Out (FIFO) principle.
+2. **Non-Linear Data Structures**: Elements are not arranged sequentially.
+    
+    - **Tree**: A hierarchical structure with a root element and sub-elements.
+    - **Graph**: Consists of nodes connected by edges, representing relationships.
 
 Common Data Structures
 1. Arrays
@@ -51,3 +65,12 @@ Common Data Structures
    - Useful for tasks like priority queues, event scheduling, and sorting.
 
 These are just a few examples of the many data structures available. Each data structure has its own strengths, weaknesses, and use cases, and understanding their characteristics is crucial for designing efficient algorithms and solving complex problems.
+
+#### Applications of Data Structures
+
+- **Arrays**: Used in implementing other data structures like heaps, hash tables, and matrices.
+- **Linked Lists**: Useful in dynamic memory allocation, implementing stacks and queues.
+- **Stacks**: Used in function call management, expression evaluation, and syntax parsing.
+- **Queues**: Applied in scheduling algorithms, buffering, and resource management.
+- **Trees**: Essential in database indexing, file systems, and network routing algorithms.
+- **Graphs**: Crucial for social networks, web page ranking, and network topology.
