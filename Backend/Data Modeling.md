@@ -11,7 +11,7 @@ npm i mongoose
 
 Creating Model
 
-```
+```js
 import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({});
@@ -20,7 +20,7 @@ export const User = mongoose.model('User', userSchema);
 ```
 
 Defining Schema:
-```
+```js
 const userSchema = new mongoose.Schema(
   {
     username: {

@@ -75,7 +75,7 @@ require('dotenv').config()
 console.log(process.env)
 ```
 Using ES6:-
-```
+```js
 //Using ES6
 import 'dotenv/config'
 console.log(process.env.variable_name)

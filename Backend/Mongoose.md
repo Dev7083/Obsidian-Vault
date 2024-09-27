@@ -19,7 +19,7 @@ npm i mongoose
 ```
 
 Model Creation:
-```
+```js
 import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({});
@@ -28,7 +28,7 @@ export const User = mongoose.model('User', userSchema);
 ```
 
 Schema Definition:
-```
+```js
 const userSchema = new mongoose.Schema(
   {
     username: {

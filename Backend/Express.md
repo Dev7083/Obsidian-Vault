@@ -40,6 +40,7 @@ app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`); // Log a message to the console indicating the server is running
 });
 ```
+
 Using Nodemon:
 
 Nodemon is a development tool that automatically restarts the Node.js application when it detects changes to any project file
@@ -68,7 +69,7 @@ Implementation:
 - Application level 
 Application-level middleware is attached to an instance of the app object through `app.use()` and `app.METHOD()`, where the `METHOD` is an HTTP method.
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -90,7 +91,7 @@ app.listen(3000, () => {
 });
 ```
 - Route Level Middleware
-```
+```js
 const express = require('express');
 const app = express();
 const router = express.Router();
@@ -115,7 +116,7 @@ app.listen(3000, () => {
 - Built in Middleware
 Express provides built-in middleware to handle common tasks. For instance, `express.json()` and `express.urlencoded()` parse JSON and URL-encoded data.
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -180,7 +181,7 @@ Routing in Express.js defines URL patterns (endpoints) and links them with speci
 
 
 
-```
+```js
 app.METHOD(PATH, HANDLER)
 ```
 Each route consists of three parts:
@@ -188,7 +189,7 @@ Each route consists of three parts:
 - **METHOD**: Specifies the HTTP request method. Common methods include GET, POST, PUT, DELETE, etc.
 - **PATH**: Defines the URL pattern for the route. (e.g., /about, /contact).
 - **HANDLER**: The function that is executed when a route is matched. It typically sends a response back to the client.
-```
+```js
 const express = require('express'); // Import express module
 const app = express(); // Create express app
 const port = 3000; // Define port
