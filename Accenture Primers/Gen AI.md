@@ -1,0 +1,11 @@
+- **Generative AI definition**: AI that generates new data samples.
+- **Applications**: Art, music, virtual environments, video game characters, realistic faces in movies.
+- **Not typical use**: Automating customer service chats.
+- **Types of AI**: Generative, Supervised, Unsupervised, Reinforcement; _Generative Art_ is not a type.
+- **Generative vs. Discriminative**: Generative models data distribution; Discriminative models class boundaries.
+- **Focus areas**:
+    - Supervised AI → labeling data
+    - Generative AI → data generation
+    - Discriminative AI → classification boundaries
+- **Fields using Generative AI**: Art and Music (creative content).
+- **Underlying models**: Generative AI is based on generative models.

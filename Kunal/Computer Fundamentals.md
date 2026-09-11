@@ -1,0 +1,48 @@
+- Computer- Electronic machine that takes input, perform operation and gives output.
+- input → process → output
+- CPU, RAM, storage
+- Volatile Memory(Temp) vs Non Volatile Memory(Permanent)
+- Cache Memory
+-  What is software vs hardware
+- System vs Application Software
+- Data
+- Instructions - meaningful data
+- Program - set of instruction
+- How programs run
+	- Flow:
+		1. You write code
+		2. It gets compiled/interpreted
+		3. CPU executes instructions
+		4. Output is produced
+- Languages
+	- High level Language(Python)
+	- Assembly Language
+	- low level Language(0,1)
+- Assembler
+- Compiler
+- Interpreter
+- File handling (create, move files)
+	- - Files = data (e.g., `.js`, `.txt`)
+	- Folders = organization
+	- Paths:  Location 
+- Install software
+- Use terminal/command prompt (basic commands)
+	- `cd` → change directory
+	- `ls / dir` → list files
+	- `mkdir` → create folder
+	- `rm`/`rmdir` → delete
+	-  `cd ..` -> 1 folder back
+- GUI vs CUI
+- How websites work (client-server idea)
+- Basic understanding of HTTP, browsers
+	- **Internet** = network of computers
+	- **IP address** = unique identity
+	- **Client-Server model**:
+	    - Browser = client
+	    - Website = server
+- Protocol - set of rules
+- OS manages:
+	- Memory
+	- Processes
+	- Files
+	- Devices
